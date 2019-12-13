@@ -16,7 +16,7 @@ def main():
 	target_port = input("Type the target's Port Number and press enter: ")
 
 	windows_shell = "cmd"
-	linux_shell = "/bin/bash"
+	linux_shell = "/bin/bash -i"
 
 	windows = windows_shell
 	linux = linux_shell
